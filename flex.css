@@ -1,13 +1,4 @@
-div {
-    margin: 1%;
-    padding: 1%;
-    background-color: skyblue;
-}
-div * {
-    margin: 0;
-    padding: 0;
-}
-
+/* -------------------------------------------------------------------------------- */
 .row {
     display: flex;
     flex-direction: row;
@@ -21,14 +12,14 @@ div * {
     align-items: center;
     justify-content: center;
 }
-
+/* -------------------------------------------------------------------------------- */
 .row-top {
     display: flex;
     flex-direction: row;
 
     text-align: center;
-    align-items: center;
-    justify-content: start;
+    align-items: start;
+    justify-content: center;
 }
 
 .column-top {
@@ -39,3 +30,58 @@ div * {
     align-items: center;
     justify-content: start;
 }
+/* -------------------------------------------------------------------------------- */
+.row-bottom {
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+    align-items: end;
+    justify-content: center;
+}
+
+.column-bottom {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    align-items: center;
+    justify-content: end;
+}
+/* -------------------------------------------------------------------------------- */
+.row-left {
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+    align-items: center;
+    justify-content: start;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    align-items: start;
+    justify-content: center;
+}
+/* -------------------------------------------------------------------------------- */
+.row-right {
+    display: flex;
+    flex-direction: row;
+
+    text-align: center;
+    align-items: center;
+    justify-content: end;
+}
+
+.column-right {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+    align-items: end;
+    justify-content: center;
+}
+/* -------------------------------------------------------------------------------- */
